@@ -17,6 +17,8 @@ Some institutions already have student-built resource websites or repositories. 
 
 FreeResources.in is being built around a simple idea: **academic resources should be organized and accessible through one platform, across institutions.**
 
+A central commitment of the platform is that students should be able to access its core academic content without paying for it. **Access to academic resources on FreeResources.in is intended to remain free for students, on an ongoing basis.** Notes, previous-year questions, assignments, tests, and other published learning material are being brought together to reduce barriers to studying—not to create another paid content library. Free access is a foundational part of the platform's purpose and long-term direction.
+
 Instead of maintaining a separate resource destination for every college, the long-term vision is to bring institution-specific academic material together in a common system.
 
 ## What we are building
@@ -76,7 +78,7 @@ That means building an ecosystem around the student's college journey:
 - **Quality and trust:** Review contributions and prioritize verified, relevant resources.
 - **Connected learning:** Integrate tools such as Parrot AI so students can move from finding material to actively learning from it.
 
-The platform will grow incrementally, with its coverage and capabilities expanding as more institutions, resources, and contributors become part of the network.
+The platform will grow incrementally, with its coverage and capabilities expanding as more institutions, resources, and contributors become part of the network. Its commitment to free student access is intended to remain central as it develops.
 
 ## What makes the platform different?
 
@@ -89,7 +91,7 @@ The platform will grow incrementally, with its coverage and capabilities expandi
 
 ## Project identity
 
-FreeResources.in is an independent, long-term platform project. It is not a hackathon-only prototype. Parrot AI is a complementary project within this broader direction, while retaining its own identity as an agentic-AI hackathon project.
+FreeResources.in is an independent, long-term platform project, built with the primary purpose of helping students access academic material freely. It is not a hackathon-only prototype. Parrot AI is a complementary learning companion that works alongside the platform's resources; it remains a distinct project with its own identity as an agentic-AI project developed for Fetch-A-Thon 3.0.
 
 We are building the platform iteratively: expanding institutional coverage, improving the resource experience, and developing connected learning capabilities.
 
