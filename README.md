@@ -1,100 +1,51 @@
 # FreeResources.in
 
-> **One platform for the academic resources of many colleges.**
->
-> FreeResources.in is being built as a multi-institution academic resource platform where students can find, access, and contribute study material relevant to their own college, course, semester, and subjects.
+**A multi-institution platform for organising and freely accessing academic study resources.**
 
-🌐 **Website:** https://freeresources.in  
-🐦 **AI companion:** [Parrot AI](https://github.com/prathambansaliasofficial-ai/parrot)
+Website: https://freeresources.in · AI study companion: [Parrot AI](https://github.com/prathambansaliasofficial-ai/parrot)
 
----
+## Overview
 
-## Why FreeResources.in?
+Students rely on notes, previous-year question papers, assignments, practical material, reference books, tests and syllabus documents. In many colleges this material is scattered across messaging groups, drives and individuals. FreeResources.in aims to organise it by institution, course, semester and subject on a single platform.
 
-Across colleges, students repeatedly depend on notes, previous-year question papers, assignments, practical material, reference books, tests, and syllabus documents to study effectively.
+Access to core academic content is **intended to remain free for students**.
 
-Some institutions already have student-built resource websites or repositories. In many other colleges, however, useful material is scattered across messaging groups, drives, individual students, and informal networks. Finding the right document can take more effort than using it.
+## Intended Student Workflow
 
-FreeResources.in is being built around a simple idea: **academic resources should be organized and accessible through one platform, across institutions.**
+1. Sign in and select college and academic details.
+2. Navigate to the relevant course, semester and subject.
+3. Find the resources associated with that context.
 
-A central commitment of the platform is that students should be able to access its core academic content without paying for it. **Access to academic resources on FreeResources.in is intended to remain free for students, on an ongoing basis.** Notes, previous-year questions, assignments, tests, and other published learning material are being brought together to reduce barriers to studying—not to create another paid content library. Free access is a foundational part of the platform's purpose and long-term direction.
+## Community Contribution Model (Planned)
 
-Instead of maintaining a separate resource destination for every college, the long-term vision is to bring institution-specific academic material together in a common system.
+Students with useful or updated material will be able to contribute it. Contributions are reviewed and verified before publication: *contribute → review → organise → benefit more students*. The aim is a dependable collection where relevance and quality matter more than volume.
 
-## What we are building
+## Parrot AI
 
-FreeResources.in is intended to let a student:
+Parrot AI is a complementary AI study companion that works alongside the resources: explaining topics in context, quizzing students, giving feedback on their explanations (teach-back), and supporting revision. It is a separate project built for Fetch-A-Thon 3.0. Its implementation, including the FreeResources web application and the AKTU dataset pipeline, is in the [Parrot repository](https://github.com/prathambansaliasofficial-ai/parrot).
 
-1. Visit the platform and sign in.
-2. Select or provide their college and academic details.
-3. Navigate to the relevant course, semester, and subject.
-4. Find the academic resources associated with that context.
-5. Access useful material without having to search through unrelated groups and links.
+## Project Status
 
-The platform is designed to grow beyond a single college. Its direction is to support students from different universities and institutions through a shared, organized resource ecosystem.
+The platform is under iterative development. In its current state:
 
-## A growing, student-supported resource network
+- The catalogue web app and AKTU dataset import pipeline are maintained in the Parrot repository (`freeresources/` directory).
+- This repository currently contains only this overview document.
+- Multi-institution coverage, public contributions and review workflows are **planned**, not yet delivered.
 
-Collecting and organizing academic material across multiple colleges is a substantial undertaking. The platform is therefore being developed with a community contribution model in mind.
+[Add: current number of institutions, subjects and documents available, if you wish to quote figures.]
 
-As the network grows, students who have useful or updated material should be able to contribute it. Contributions can then be reviewed and verified before being made available on the platform.
+## Roadmap
 
-The intended cycle is:
+- Broader institutional coverage
+- Resource discovery by institution, course and subject
+- Student contribution and review workflow
+- Verified, quality-checked material
+- Integrated learning tools through Parrot AI
 
-**Students contribute → resources are reviewed → verified material is organized → more students benefit.**
+## Project Identity
 
-This approach can help the platform expand its coverage while allowing people familiar with a particular course or institution to help keep its resources relevant.
+FreeResources.in is an independent, long-term platform project and not a hackathon-only prototype. Parrot AI is a separate project with its own scope.
 
-The goal is not simply to accumulate the largest number of files. It is to build a dependable academic resource collection where organization, relevance, and quality matter.
+## Team and Contribution
 
-## Parrot AI — An intelligent learning companion
-
-FreeResources.in is also the foundation for **[Parrot AI](https://github.com/prathambansaliasofficial-ai/parrot)**, an AI study companion being developed alongside the resource platform.
-
-Students often have to download a document, open another AI tool, upload the same document, explain their course context, and repeat the process whenever they want help studying. Parrot is intended to make that workflow more connected.
-
-By working alongside the academic resources on FreeResources.in, Parrot aims to help students learn from the material they already use.
-
-Its learning experience is centered on:
-
-- **Understand:** Get explanations of topics in the context of relevant academic material.
-- **Practise:** Use quizzes and active-recall questions to test understanding.
-- **Teach back:** Explain a concept in your own words and receive feedback on what is correct, incomplete, or misunderstood.
-- **Revise:** Get help organizing topics and preparing a focused revision plan.
-
-Parrot is not intended to be just another general-purpose chatbot. The longer-term ambition is to develop a high-quality, academically focused AI companion whose understanding of a student's course material makes it especially useful for learning in that context.
-
-Parrot AI also has its own identity and development track as an individual agentic-AI project built for **Fetch-A-Thon 3.0**. Its separate project documentation and implementation are available in the [Parrot repository](https://github.com/prathambansaliasofficial-ai/parrot).
-
-## The broader vision
-
-The long-term vision is to make FreeResources.in a familiar academic destination for students across colleges—not just a collection of downloadable documents.
-
-That means building an ecosystem around the student's college journey:
-
-- **Broad institutional coverage:** Bring academic resources from multiple colleges and universities into one organized platform.
-- **Useful academic discovery:** Help students find material relevant to their own institution, course, and subject.
-- **Community participation:** Enable students to contribute useful material and help keep existing resources up to date.
-- **Quality and trust:** Review contributions and prioritize verified, relevant resources.
-- **Connected learning:** Integrate tools such as Parrot AI so students can move from finding material to actively learning from it.
-
-The platform will grow incrementally, with its coverage and capabilities expanding as more institutions, resources, and contributors become part of the network. Its commitment to free student access is intended to remain central as it develops.
-
-## What makes the platform different?
-
-| Fragmented resource discovery | FreeResources.in's direction |
-| --- | --- |
-| Material spread across groups, drives, and separate websites | A common platform for institution-specific resources |
-| Students repeatedly search for the same documents | Organized discovery by academic context |
-| Resource collections depend on isolated contributors | A growing contribution and review network |
-| Documents are often used separately from learning tools | Parrot AI brings an interactive learning experience alongside resources |
-
-## Project identity
-
-FreeResources.in is an independent, long-term platform project, built with the primary purpose of helping students access academic material freely. It is not a hackathon-only prototype. Parrot AI is a complementary learning companion that works alongside the platform's resources; it remains a distinct project with its own identity as an agentic-AI project developed for Fetch-A-Thon 3.0.
-
-We are building the platform iteratively: expanding institutional coverage, improving the resource experience, and developing connected learning capabilities.
-
----
-
-**FreeResources.in — Academic resources, connected.**
+[Add: team members and your role.]
